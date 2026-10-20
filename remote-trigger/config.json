@@ -1,0 +1,14 @@
+{
+  "user": "bridge-xxx@163.com",
+  "pass": "your-auth-code",
+  "allowed_from": [
+    "xxx@163.com"
+  ],
+  "subject_prefix": "CMD",
+  "allow_self": false,
+  "poll_seconds": 5,
+  "paste_mode": "trigger",
+  "max_body_bytes": 4096,
+  "max_per_poll": 5,
+  "trigger_text": "New instruction email received: please call check_inbox(wait_seconds=5) to fetch whitelisted mail, follow Rule.md, and send_email a report when done."
+}

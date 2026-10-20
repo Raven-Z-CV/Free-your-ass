@@ -1,0 +1,24 @@
+{
+  "name": "email-bridge",
+  "version": "0.1.0",
+  "description": "CodeBuddy email bridge MCP server: send_email / check_inbox / list_threads with inbound+outbound whitelists, rate limiting and audit log",
+  "type": "module",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "setup": "node setup.mjs",
+    "test": "node --test test/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "html-to-text": "^9.0.5",
+    "imapflow": "^1.0.170",
+    "mailparser": "^3.7.0",
+    "nodemailer": "^6.9.14",
+    "zod": "^3.23.8"
+  }
+}

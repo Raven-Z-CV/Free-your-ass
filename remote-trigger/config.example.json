@@ -1,0 +1,15 @@
+{
+  "user": "bridge-xxx@qq.com",
+  "pass": "enter-your-16-char-auth-code",
+  "allowed_from": [
+    "you@qq.com"
+  ],
+  "imap_host": "",
+  "subject_prefix": "[CMD]",
+  "allow_self": false,
+  "poll_seconds": 20,
+  "paste_mode": "trigger",
+  "max_body_bytes": 4096,
+  "max_per_poll": 5,
+  "trigger_text": "New instruction email received: please call check_inbox(wait_seconds=5) to fetch whitelisted mail, follow Rule.md, and send_email a report when done."
+}

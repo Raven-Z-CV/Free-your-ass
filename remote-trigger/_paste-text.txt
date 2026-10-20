@@ -1,0 +1,1 @@
+﻿New instruction email received: please call check_inbox(wait_seconds=5) to fetch whitelisted mail, follow the email-bridge Rule, and send_email a report when done.

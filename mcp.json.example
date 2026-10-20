@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "email-bridge": {
+      "command": "/home/<you>/.workbuddy/binaries/node/versions/<ver>/bin/node",
+      "args": ["/home/<you>/code/email2code/email-bridge/src/index.js"],
+      "env": {
+        "EMAIL_BRIDGE_USER": "bridge-xxx@qq.com",
+        "EMAIL_BRIDGE_PASS": "<16-char-auth-code>",
+        "EMAIL_BRIDGE_ALLOWED_TO": "you@qq.com",
+        "EMAIL_BRIDGE_ALLOWED_FROM": "you@qq.com",
+        "EMAIL_BRIDGE_MAX_PER_HOUR": "10"
+      }
+    }
+  }
+}

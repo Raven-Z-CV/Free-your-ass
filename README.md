@@ -1,3 +1,4 @@
+![demo](demo.gif)
 # email-bridge
 
 Control the Agent in VSCode by sending and receiving emails — no need to stay at your computer. Whether you're in class, having coffee, or commuting, you can get work done from any device that can receive email (a tablet or phone, for example).
